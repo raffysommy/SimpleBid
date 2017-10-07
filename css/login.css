@@ -1,0 +1,22 @@
+.loginform{
+    width: 300px; /*can be in percentage also.*/
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+    border: 5px solid #A9A9A9;
+    border-radius: 20px;
+    background:#EFEFEF;
+    text-align: center;
+}
+@media (max-width: 600px) {
+  .menulat {
+      float: initial;
+      margin:0 auto;
+  }
+  .mymaincontent{
+      margin-left:0;
+      background-color: transparent;
+      border:transparent;
+  }
+}
